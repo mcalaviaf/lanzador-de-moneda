@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="o,yTNH?p_,sfXWD=H@A2" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_if" id="M(iEC5p;:vkXI@ce2Oz5"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="N+o/[%?9FnwqJ7T{;+|="><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="{c=u4-NQrrD#8Gd/UG!?"></block></value><statement name="DO0"><block type="basic_show_icon" id="svcDG_?#KZ(_z~DvJz~w"><field name="i">IconNames.Diamond</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="C(p:IdK(T;3SBis,OgJq"><field name="BOOL">FALSE</field></shadow><block type="logic_random" id="HuqZy6ptW[Hf6D-XeKGI"></block></value><statement name="DO1"><block type="device_show_leds" id="5pwW;XEI;~ufpB[6Ft-c"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="d#2$^@s]bi}a.SG^wE$j"><field name="i">IconNames.Skull</field></block></statement></block></statement></block></xml>
